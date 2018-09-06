@@ -1,0 +1,33 @@
+#cookiejava{
+ position: fixed;
+ padding: 1em;
+ //display: inline;
+ font-family: "sans-serif";
+ background-color: black;
+ color: grey;
+ bottom: 0em;
+}
+
+#cookiejava button{
+ border: none;
+ background-color: transparent;
+ color: white;
+}
+
+#cookiejava button:hover{
+ color: yellow;
+}
+
+#cookiejava a{
+ text-decoration: none;
+ color: white;
+}
+
+#cookiejava a:hover{
+ text-decoration: none;
+ color: yellow;
+}
+
+#cookiejavaButtons{
+ text-align: center;
+}

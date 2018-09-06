@@ -1,0 +1,47 @@
+nav{
+ padding-left: 2em;
+ padding-top: 0.5em;
+ padding-bottom: 0.5em;
+ background-color: lightgrey;
+ display: flex;
+ flex-direction: row;
+}
+
+#cLogo{
+ color: red;
+ font-weight: bold;
+ font-size: 2em;
+ text-align: center;
+}
+
+.logo {
+ //position: absolute;
+ //top: 1px;
+ width: 150px;
+ border-radius: 50%;
+ //opacity: 0.5;
+}
+
+ehot{
+ position: absolute;
+ top: 50px;
+}
+
+#cLogo:hover{
+ color: transparent;
+}
+
+
+.navItem{
+ border: none;
+ color: black;
+ background-color: transparent;
+ font-size: 1.8em;
+}
+
+#navItems{
+  //vertically-align: middle;
+ margin-top: 50px;
+ //background-color: orange;
+ padding-left: 3em;
+}

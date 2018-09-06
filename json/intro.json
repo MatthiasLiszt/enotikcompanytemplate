@@ -1,0 +1,8 @@
+var Intro=`<section >
+           <h3>Hallo!</h3>
+           <p>Wir sind ein junges IT-Dienstleistungsunternehmen, dass 
+              Sie gerne ber&auml;t und optimale L&ouml;sungen f&uuml;r
+              Sie entwickelt.
+           </p> 
+           </section>
+          `;
