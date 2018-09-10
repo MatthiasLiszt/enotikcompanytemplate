@@ -56,6 +56,22 @@
     
      padding-left: 3em;
     }
+
+    #burgermenu div {
+      position: absolute;
+      top: -500px;
+    }
+
+    #burgermenu:hover div {
+      position: relative;
+      top: 1em;
+    }
+
+   .navItem:hover {
+    font-weight: bold;
+    text-shadow: 2px 2px white;
+   }
+
   </style>
   </head>
   <body>
@@ -64,16 +80,21 @@
                   <a href="#Intro"><amp-img class="logo" src="img/ampaffal.gif" width="150" height="150"></a>
    </div>
    <div id="navItems">
-	 <a href="#Investing"><button class="navItem" id="investing">Investieren</button></a> 
-	 <a href="#Products"><button class="navItem" id="products">Produkte</button></a> 
-	 <a href="#AboutMe"><button class="navItem" id="aboutme">&Uuml;ber Mich</button></a>  
-	 <a href="#Contact"><button class="navItem" id="contact">Kontakt</button></a>  
+      <div id="burgermenu">
+         <h1 class="navItem">&#9776;</h1>
+         <div>  
+	  <p><a href="#Investing"><button class="navItem" id="investing">Investieren</button></a></p> 
+	  <p><a href="#Products"><button class="navItem" id="products">Produkte</button></a></p> 
+	  <p><a href="#AboutMe"><button class="navItem" id="aboutme">&Uuml;ber Mich</button></a></p>  
+	  <p><a href="#Contact"><button class="navItem" id="contact">Kontakt</button></a></p>
+         </div>  
+       </div>  
    </div> 
  </nav>
  <div id="Intro">
            <section >
             <h3>Hallo!</h3>
-            <p>Wir sind ein junges IT-Dienstleistungsunternehmen, dass 
+            <p>Wir sind ein junges IT - Dienstleistungsunternehmen, dass    
               Sie gerne ber&auml;t und optimale L&ouml;sungen f&uuml;r
               Sie entwickelt.
             </p> 
