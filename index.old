@@ -3,15 +3,11 @@
 <head>
 <title>EHOT Consult & Development</title>
 <meta charset="utf-8">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" 
- integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 <link rel="stylesheet" href="plugins/cookiejava.css">
 <link rel="stylesheet" href="css/navbar.css">
 <link rel="stylesheet" href="css/main.css">
 <script src="json/invest.json"></script>
 <script src="json/intro.json"></script>
-<script src="json/contact.json"></script>
-
 </head>	
 <body>
  <nav>

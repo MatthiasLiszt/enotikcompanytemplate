@@ -31,3 +31,7 @@
 #cookiejavaButtons{
  text-align: center;
 }
+
+#cookiejavaButtons span{
+ font-size: 1.8em;
+}

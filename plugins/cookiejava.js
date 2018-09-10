@@ -4,8 +4,8 @@ var javacookieDE=`<div id="cookiejava">
                   Wenn Sie der Nutzung nicht zu stimmen leiten wir sie gerne auf eine 
                   reduzierte AMP-Seite weiter. <p>
                     <div id="cookiejavaButtons">
-                      <button onclick="$('#cookiejava').hide()">JA</button>
-                      <a href="ampsite.html">nein</a>
+                      <button onclick="$('#cookiejava').hide()"><span>JA</span></button>
+                      <a href="ampsite.html"><span>nein</span></a>
                     </div>
                   </div>
                  `;
