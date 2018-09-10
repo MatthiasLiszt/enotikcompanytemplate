@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="plugins/cookiejava.css">
 <link rel="stylesheet" href="css/navbar.css">
 <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/media.css">
 <script src="json/invest.json"></script>
 <script src="json/intro.json"></script>
 <script src="json/contact.json"></script>
@@ -20,12 +21,23 @@
   <div id="cLogo"><ehot>&nbsp;eHOT</ehot>
                   <a href="#Intro"><img class="logo" src="img/affal.gif"></a>
    </div>
-   <div id="navItems">
+   <div id="navBigMenu">
+     <div id="navItems">
 	 <a href="#Investing"><button class="navItem" id="investing">Investieren</button></a> 
 	 <a href="#Products"><button class="navItem" id="products">Produkte</button></a> 
 	 <a href="#AboutMe"><button class="navItem" id="aboutme">&Uuml;ber Mich</button></a>  
 	 <a href="#Contact"><button class="navItem" id="contact">Kontakt</button></a>  
-   </div> 
+      </div>
+    </div><!-- navBigMenu -->
+    <div id="burgermenu">
+         <h1 class="navItem">&#9776;</h1>
+         <div>  
+	  <p><a href="#Investing"><button class="navItem" id="investingMobile">Investieren</button></a></p> 
+	  <p><a href="#Products"><button class="navItem" id="productsMobile">Produkte</button></a></p> 
+	  <p><a href="#AboutMe"><button class="navItem" id="aboutmeMobile">&Uuml;ber Mich</button></a></p>  
+	  <p><a href="#Contact"><button class="navItem" id="contactMobile">Kontakt</button></a></p>
+         </div>  
+     </div><!-- burgermenu -->   
  </nav>	
  <div id="Investing"></div>
  <div id="Products"></div>
