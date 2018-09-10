@@ -1,8 +1,11 @@
 var Intro=`<section >
            <h3>Hallo!</h3>
-           <p>Wir sind ein junges IT-Dienstleistungsunternehmen, dass 
-              Sie gerne ber&auml;t und optimale L&ouml;sungen f&uuml;r
-              Sie entwickelt.
-           </p> 
+            <p>Wir sind ein junges Unternehmen, dass    
+              Sie gerne berät und optimale Lösungen für
+              Sie entwickelt. </p>
+             <p>Wir haben uns auf die Optimierung und Erstellung von Webseiten,
+                Handy-Apps, sowie auf SEO oder Suchmaschinenoptimierung spezialisiert.
+              
+            </p>
            </section>
           `;
