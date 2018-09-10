@@ -1,7 +1,7 @@
 var Contact=`<section>
              <div id="contactform">
              <h3>KONTAKT</h3>
-             <form name="contact" method="POST" https://formspree.io/matthias.liszt@gmail.com>
+             <form name="contact" method="POST" action="https://formspree.io/matthias.liszt@gmail.com">
                         <div style="display:flex;flex-direction: row;" id="namemail">
                             <div >
                                 <input  type="text" placeholder="Name" required name="Name">
