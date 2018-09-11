@@ -6,6 +6,9 @@
  #burgermenu{
   display: none;
  }
+ section {
+  font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+ }
 }
 
 @media screen and (max-width: 799px) {

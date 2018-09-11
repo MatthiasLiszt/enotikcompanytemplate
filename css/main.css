@@ -1,4 +1,4 @@
-body{
+html,body{
   font-family: "sans-serif";
 }
 
@@ -6,6 +6,11 @@ section{
  margin: 3em;
  font-family: "sans-serif";
  font-size: 1.2;
+}
+
+section p {
+  overflow: hidden;
+  max-width: 61ch;
 }
 
 #contactform {
